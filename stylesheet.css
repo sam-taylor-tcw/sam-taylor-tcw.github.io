@@ -1,0 +1,99 @@
+body{
+background-color: white;
+color: black;
+font-family: 'Montserrat', sans-serif;
+/* border: 1px solid black; */
+}
+
+h1{
+   margin-top: 20px;
+    font-size: 18px;
+}
+
+p{
+    font-size: 14px;
+}
+.link_in_bio_container{
+    width: 70%;
+	margin: 20px auto;
+	display: flex;
+	flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.circle-prof-pic{
+    width: auto;
+	height: 150px;
+	overflow: hidden;
+    margin: 0 auto;
+   border-radius: 50% ;
+   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.prof-pic{
+    display: inline;
+    position: relative;
+    margin: auto;
+    height: 100%;
+    width: auto;
+    border-radius: 50%;
+}
+
+.links{
+    width: 75%;
+	max-width: 600px;
+	margin: 20px auto;
+	display: flex;
+	flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.list_link{
+color: black;
+margin-top: 10px;
+margin-bottom:10px;
+width: 100%;
+padding: 10px;
+background-color:white;
+box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.19), 0 4px 6px 0 rgba(0, 0, 0, 0.15);
+}
+
+.list_link:hover{
+    color: white;
+    background-color: goldenrod;
+
+    border: none;
+    
+}
+
+
+.social_icons{
+    width: 70%;
+	margin: 20px auto;
+	display: flex;
+    flex-direction: row;
+   align-items: center;
+   justify-content: center;
+	
+}
+
+.icon{
+    height: 40px;
+    width: 40px; 
+    margin: 5px;
+    padding: 5px;
+    background-color: black;
+
+}
+
+.icon:hover{
+    color:goldenrod;
+    background-color: goldenrod;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+}
