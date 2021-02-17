@@ -14,7 +14,7 @@ p{
     font-size: 14px;
 }
 .link_in_bio_container{
-    width: 70%;
+    width: 90%;
 	margin: 20px auto;
 	display: flex;
 	flex-direction: column;
@@ -57,16 +57,11 @@ margin-bottom:10px;
 width: 100%;
 padding: 10px;
 background-color:white;
+border-radius: 25px;
 box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.19), 0 4px 6px 0 rgba(0, 0, 0, 0.15);
 }
 
-.list_link:hover{
-    color: white;
-    background-color: goldenrod;
 
-    border: none;
-    
-}
 
 
 .social_icons{
